@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="progr.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>
+                TO-DO LIST
+                <img src="todolist1.jpg" alt="To-do">
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="ADD YOUR TEXT">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+            <div id="task">
+                <p id="pending-task">
+                    You have <span class="count-value">0</span> task(s) to complete
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
